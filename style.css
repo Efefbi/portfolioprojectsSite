@@ -1,0 +1,122 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+header{
+	background-color:grey;
+	display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: flex-end;
+	height: 150px;
+  
+}
+header h1{
+	font-weight: bold;
+	font-size: 2.5rem;
+	font-family: 'Roboto', sans-serif;
+	margin:20px auto;
+	color: white;
+
+}
+nav{
+color: white;
+font-size:1.5rem;
+flex-direction: row-reverse;
+text-align: center;
+padding:10px;
+margin-left: 15em;
+margin-top: 3em;
+width: 50%;
+
+}
+nav ul li {
+	display: inline;
+	text-decoration: none;
+	padding: 10px;
+}
+nav li a {
+	text-decoration: none;
+	color: #ffff54;
+}
+main{
+	margin: auto;
+	width: 80%;
+	background-color: lightgrey;
+}
+h2 {
+	font-weight: bold;
+	font-size:1.5em;
+	font-family:'Roboto', sans-serif;
+	text-align: center;
+}
+#About{
+width: 100%;
+display: inline-block;
+}
+#About div{
+	background-color: #52DCFE;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	
+	}
+#About img {
+	min-width: 30%;
+	height: 250px;
+	margin: 10px;
+	
+}
+ #About h3 {
+	font-weight: bold;
+	font-family:'Roboto', sans-serif;
+	font-size: 1.5em;
+	margin:5px 20px 20px 20px;
+	align-self: flex-start;
+	color: white;
+}
+#About p {
+	margin:10px;
+	align-self: center;
+	font-size: 1.5em;
+    line-height: 1.1em;
+}
+
+#Articles {
+	width: 100%;
+	padding: 20px;
+}
+.same {
+	width: 40%;
+	display: inline-block;
+	background-color: Butter;
+}
+.same h2{
+	margin: 5px;
+}
+.same ul li{
+	margin-left: 10px;
+	font-size: 1.1em;
+	list-style-type: square;
+	
+}
+footer{
+	width: 80%;
+	margin:0 auto;
+	background-color:black;
+}
+footer h2 {
+	color : white;
+	padding: 30px;
+	text-align: center;
+}
